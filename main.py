@@ -1,8 +1,10 @@
 import array
+import csv
 import os
 import sys
 from collections import defaultdict
 import enchant
+import re
 
 from typing import List
 
@@ -60,9 +62,53 @@ print("--------------------------------")
 
 
 allowed_ascii_codes: List[int] = list(range(32, 48)) + list(range(58, 127))
-guess_word: str = " the "
+possible_words: List[str] = []
+
+
+# with open('FrequentEnglishWordList.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     crib_list = list(reader)
+# # Remove the header of the list file
+# crib_list = crib_list[1:]
+#
+# for index, crib in enumerate(crib_list):
+#     crib_bytes: List[int] = []
+#     crib_word = crib[1].capitalize()
+#     [crib_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in crib_word]
+#     local_result = byte_xor(ciphertext_xor[0:len(crib_bytes)], crib_bytes)
+#
+#     if not check_ascii_code_allowed(local_result):
+#         continue
+#
+#     local_result_text: str = ""
+#     for c in local_result:
+#         local_result_text += chr(c)
+#
+#     if not local_result_text[0].isupper():
+#         continue
+#
+#     if re.search(r'[^A-Za-z0-9 ]+', local_result_text):
+#         continue
+#
+#     possible_words.append(local_result_text)
+#
+#     print(f"{index}:{crib_word} - {local_result_text}")
+        
+        
+# Using readlines()
+# file1 = open('words.txt', 'r')
+# all_words = file1.readlines()
+#
+#
+#
+#
+#
+guess_word: str = """: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide"""
 # Something interesting found so far:
 # "would the jon"
+# "I do " and "Talk " at [0]
+# [81] ": the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide" =>
+#      " freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"
 guess_word_bytes: List[int] = []
 [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
 possible_words: List[str] = []
@@ -71,6 +117,7 @@ possible_words: List[str] = []
 # print(f"Guess word is '{guess_word}'")
 # r = enchant_dictionary.check(guess_word)
 # sug = enchant_dictionary.suggest("uld")
+
 
 for i in range(len(ciphertext_xor) - len(guess_word)):
     local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
@@ -84,10 +131,32 @@ for i in range(len(ciphertext_xor) - len(guess_word)):
 
     possible_words.append(local_result_text)
     # print(f"At {i}: {local_result} = {local_result_text}")
-    print(f"At {i}: {local_result_text}")
+    print(f"At {i}:--{local_result_text}--")
 
 print(f"Found {len(possible_words)} possible words")
-# print(sug)
+#
+#
+#
+#
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # precalculated_ascii_xor: defaultdict = defaultdict()
