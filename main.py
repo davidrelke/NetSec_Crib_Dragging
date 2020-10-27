@@ -103,12 +103,12 @@ possible_words: List[str] = []
 #
 #
 #
-guess_word: str = """: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide"""
+guess_word: str = """Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide."""
 # Something interesting found so far:
 # "would the jon"
 # "I do " and "Talk " at [0]
-# [81] ": the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide" =>
-#      " freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"
+# [81] "conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide" =>
+#      "I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"ing
 guess_word_bytes: List[int] = []
 [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
 possible_words: List[str] = []
