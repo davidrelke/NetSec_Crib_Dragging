@@ -3,12 +3,12 @@ import csv
 import os
 import sys
 from collections import defaultdict
-import enchant
+# import enchant
 import re
 
-from typing import List
+from typing import List, Dict
 
-enchant_dictionary = enchant.Dict("en_US")
+# enchant_dictionary = enchant.Dict("en_US")
 
 def byte_xor(ba1, ba2) -> List[int]:
     res: List[int] = []
@@ -61,65 +61,24 @@ print(f"XOR of c1 and c2 contains {len(ciphertext_xor)} bytes")
 print("--------------------------------")
 
 
-allowed_ascii_codes: List[int] = list(range(32, 48)) + list(range(58, 127))
-possible_words: List[str] = []
+allowed_ascii_codes: List[int] = [32, 39, 44, 46, 58] + list(range(65, 91)) + list(range(97, 123))
+#                                " " "'" "," "." ":"
 
+        
+# wordlist_file = open('wordlist.txt', 'r')
+# all_words: List[str] = wordlist_file.readlines()
+# for i, word in enumerate(all_words):
+#     all_words[i] = word.replace('\n', '')
 
-# with open('FrequentEnglishWordList.csv', 'r') as f:
-#     reader = csv.reader(f)
-#     crib_list = list(reader)
-# # Remove the header of the list file
-# crib_list = crib_list[1:]
-#
-# for index, crib in enumerate(crib_list):
-#     crib_bytes: List[int] = []
-#     crib_word = crib[1].capitalize()
-#     [crib_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in crib_word]
-#     local_result = byte_xor(ciphertext_xor[0:len(crib_bytes)], crib_bytes)
-#
-#     if not check_ascii_code_allowed(local_result):
-#         continue
-#
-#     local_result_text: str = ""
-#     for c in local_result:
-#         local_result_text += chr(c)
-#
-#     if not local_result_text[0].isupper():
-#         continue
-#
-#     if re.search(r'[^A-Za-z0-9 ]+', local_result_text):
-#         continue
-#
-#     possible_words.append(local_result_text)
-#
-#     print(f"{index}:{crib_word} - {local_result_text}")
-        
-        
-# Using readlines()
-# file1 = open('words.txt', 'r')
-# all_words = file1.readlines()
-#
-#
-#
-#
-#
-guess_word: str = """Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide."""
-# Something interesting found so far:
-# "would the jon"
-# "I do " and "Talk " at [0]
-# [81] "conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide" =>
-#      "I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"ing
+current_message_1: List[str] = ['#'] * len(ciphertext_xor)
+current_message_2: List[str] = ["*"] * len(ciphertext_xor)
+
+guess_word: str = " government "
 guess_word_bytes: List[int] = []
 [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
-possible_words: List[str] = []
+possible_words: Dict[int,str] = dict()
 
-
-# print(f"Guess word is '{guess_word}'")
-# r = enchant_dictionary.check(guess_word)
-# sug = enchant_dictionary.suggest("uld")
-
-
-for i in range(len(ciphertext_xor) - len(guess_word)):
+for i in range(len(ciphertext_xor) - len(guess_word) + 1):
     local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
     local_result_text: str = ""
 
@@ -129,18 +88,66 @@ for i in range(len(ciphertext_xor) - len(guess_word)):
     for c in local_result:
         local_result_text += chr(c)
 
-    possible_words.append(local_result_text)
-    # print(f"At {i}: {local_result} = {local_result_text}")
-    print(f"At {i}:--{local_result_text}--")
+    possible_words[i] = local_result_text
+    print(f"[{i}]--{local_result_text}--")
 
-print(f"Found {len(possible_words)} possible words")
-#
-#
-#
-#
-#
-#
-#
+selected_position = input("Select one:")
+try:
+    selected_position = int(selected_position)
+    if selected_position not in possible_words:
+        print(f"Please enter a valid position")
+    else:
+        selected_word = possible_words[selected_position]
+        word_length = len(selected_word)
+        print(f"You chose '{selected_word}'")
+        selected_word_list = []
+        [selected_word_list.append(c) for c in selected_word]
+        current_message_1[selected_position:selected_position+word_length] = selected_word_list
+        
+        guess_word_list = []
+        [guess_word_list.append(c) for c in guess_word]
+        current_message_2[selected_position:selected_position+word_length] = guess_word_list
+        print(f"Current message1:")
+        print(''.join(current_message_1))
+        print(f"Current message2:")
+        print(''.join(current_message_2))
+except ValueError:
+    print("Please enter an int")
+
+
+# guess_word: str = """I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"""
+# # Something interesting found so far:
+# # "would the jon"
+# # "I do " and "Talk " at [0]
+# # [81] "Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide." =>
+# #      "I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"ing
+# guess_word_bytes: List[int] = []
+# [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
+# possible_words: List[str] = []
+
+
+# print(f"Guess word is '{guess_word}'")
+# r = enchant_dictionary.check(guess_word)
+# sug = enchant_dictionary.suggest("uld")
+
+
+# for i in range(len(ciphertext_xor) - len(guess_word) + 1):
+#     local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
+#     local_result_text: str = ""
+
+#     if not check_ascii_code_allowed(local_result):
+#         continue
+
+#     for c in local_result:
+#         local_result_text += chr(c)
+
+#     possible_words.append(local_result_text)
+#     # print(f"At {i}: {local_result} = {local_result_text}")
+#     print(f"At {i}:--{local_result_text}--")
+
+# print(f"Found {len(possible_words)} possible words")
+# print(f"Length: {len(possible_words[0])}")
+
 
 
 
@@ -196,3 +203,34 @@ print(f"Found {len(possible_words)} possible words")
 #     c2 += hex(b).replace("0x", "")
 #
 # print("wololol")
+
+
+
+# with open('FrequentEnglishWordList.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     crib_list = list(reader)
+# # Remove the header of the list file
+# crib_list = crib_list[1:]
+#
+# for index, crib in enumerate(crib_list):
+#     crib_bytes: List[int] = []
+#     crib_word = crib[1].capitalize()
+#     [crib_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in crib_word]
+#     local_result = byte_xor(ciphertext_xor[0:len(crib_bytes)], crib_bytes)
+#
+#     if not check_ascii_code_allowed(local_result):
+#         continue
+#
+#     local_result_text: str = ""
+#     for c in local_result:
+#         local_result_text += chr(c)
+#
+#     if not local_result_text[0].isupper():
+#         continue
+#
+#     if re.search(r'[^A-Za-z0-9 ]+', local_result_text):
+#         continue
+#
+#     possible_words.append(local_result_text)
+#
+#     print(f"{index}:{crib_word} - {local_result_text}")
