@@ -5,6 +5,7 @@ import sys
 from collections import defaultdict
 # import enchant
 import re
+from iteration_message import Iteration_Message
 
 from typing import List, Dict
 
@@ -66,13 +67,15 @@ allowed_ascii_codes: List[int] = [32, 39, 44, 46, 58] + list(range(65, 91)) + li
 allowed_chars = []
 [allowed_chars.append(chr(c)) for c in allowed_ascii_codes]
         
-# wordlist_file = open('wordlist.txt', 'r')
-# all_words: List[str] = wordlist_file.readlines()
-# for i, word in enumerate(all_words):
-#     all_words[i] = word.replace('\n', '')
+wordlist_file = open('wordlist.txt', 'r')
+all_words: List[str] = wordlist_file.readlines()
+for i, word in enumerate(all_words):
+    all_words[i] = word.replace('\n', '')
 
 current_message_1: List[str] = ['#'] * len(ciphertext_xor)
-current_message_2: List[str] = ["*"] * len(ciphertext_xor)
+current_message_2: List[str] = ["#"] * len(ciphertext_xor)
+iteration = 0
+iteration_messages: List[Iteration_Message] = []
 
 print("These characters are allowed:")
 print("".join(allowed_chars))
@@ -80,12 +83,13 @@ print("".join(allowed_chars))
 print("Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!")
 
 while True:
-    guess_word: str = input("Enter a string below:\n")
+    guess_word: str = input(f"Iteration {iteration}: Enter a string to guess below:\n")
+    # guess_word = " government "
     guess_word_bytes: List[int] = []
     [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
     possible_words: Dict[int,str] = dict()
 
-    print(f"Guess is now '{guess_word}'")
+    print(f"Iteration {iteration}: Guess is now '{guess_word}'")
 
     for i in range(len(ciphertext_xor) - len(guess_word) + 1):
         local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
@@ -98,9 +102,19 @@ while True:
             local_result_text += chr(c)
 
         possible_words[i] = local_result_text
-        print(f"[{i}]--{local_result_text}--")
+        
 
+    if len(possible_words) == 0:
+        print("Iteration {iteration}: Could not find any match. Try with another string.")
+        continue
+    
+    for i in possible_words:
+        print(f"[{i}]--{possible_words[i]}--")
     selected_position = input("Select one that looks plausible: ")
+    
+    # if selected_position == "":
+        # backward
+    
     try:
         selected_position = int(selected_position)
         if selected_position not in possible_words:
@@ -108,7 +122,7 @@ while True:
         else:
             selected_word = possible_words[selected_position]
             word_length = len(selected_word)
-            print(f"You chose '{selected_word}'")
+            print(f"Iteration {iteration}: You chose '{selected_word}'")
             selected_word_list = []
             [selected_word_list.append(c) for c in selected_word]
             current_message_1[selected_position:selected_position+word_length] = selected_word_list
@@ -116,10 +130,25 @@ while True:
             guess_word_list = []
             [guess_word_list.append(c) for c in guess_word]
             current_message_2[selected_position:selected_position+word_length] = guess_word_list
-            print(f"Current message1:")
-            print(''.join(current_message_1))
-            print(f"Current message2:")
-            print(''.join(current_message_2))
+            print(f"Iteration {iteration}: Current message1:")
+            current_message_1_str = ''.join(current_message_1)
+            print(current_message_1_str)
+            print(f"Iteration {iteration}: Current message2:")
+            current_message_2_str = ''.join(current_message_2)
+            print(current_message_2_str)
+            
+            # current_message_1_words = current_message_1_str.replace('#', '').split(' ')
+            # current_message_2_words = current_message_2_str.replace('#', '').split(' ')
+            
+            # for word in current_message_1_words:
+            #     if word in all_words:
+            #         print(word)
+            #     else:
+            #         propose = [w for w in all_words if w.startswith(word)]
+            #         print(propose)
+            
+            iteration_messages.append(Iteration_Message(current_message_1_str, current_message_2_str, iteration))
+            iteration += 1
     except ValueError:
         print("Please enter an int")
 
