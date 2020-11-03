@@ -63,7 +63,8 @@ print("--------------------------------")
 
 allowed_ascii_codes: List[int] = [32, 39, 44, 46, 58] + list(range(65, 91)) + list(range(97, 123))
 #                                " " "'" "," "." ":"
-
+allowed_chars = []
+[allowed_chars.append(chr(c)) for c in allowed_ascii_codes]
         
 # wordlist_file = open('wordlist.txt', 'r')
 # all_words: List[str] = wordlist_file.readlines()
@@ -73,46 +74,54 @@ allowed_ascii_codes: List[int] = [32, 39, 44, 46, 58] + list(range(65, 91)) + li
 current_message_1: List[str] = ['#'] * len(ciphertext_xor)
 current_message_2: List[str] = ["*"] * len(ciphertext_xor)
 
-guess_word: str = " government "
-guess_word_bytes: List[int] = []
-[guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
-possible_words: Dict[int,str] = dict()
+print("These characters are allowed:")
+print("".join(allowed_chars))
 
-for i in range(len(ciphertext_xor) - len(guess_word) + 1):
-    local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
-    local_result_text: str = ""
+print("Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!")
 
-    if not check_ascii_code_allowed(local_result):
-        continue
+while True:
+    guess_word: str = input("Enter a string below:\n")
+    guess_word_bytes: List[int] = []
+    [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
+    possible_words: Dict[int,str] = dict()
 
-    for c in local_result:
-        local_result_text += chr(c)
+    print(f"Guess is now '{guess_word}'")
 
-    possible_words[i] = local_result_text
-    print(f"[{i}]--{local_result_text}--")
+    for i in range(len(ciphertext_xor) - len(guess_word) + 1):
+        local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
+        local_result_text: str = ""
 
-selected_position = input("Select one:")
-try:
-    selected_position = int(selected_position)
-    if selected_position not in possible_words:
-        print(f"Please enter a valid position")
-    else:
-        selected_word = possible_words[selected_position]
-        word_length = len(selected_word)
-        print(f"You chose '{selected_word}'")
-        selected_word_list = []
-        [selected_word_list.append(c) for c in selected_word]
-        current_message_1[selected_position:selected_position+word_length] = selected_word_list
-        
-        guess_word_list = []
-        [guess_word_list.append(c) for c in guess_word]
-        current_message_2[selected_position:selected_position+word_length] = guess_word_list
-        print(f"Current message1:")
-        print(''.join(current_message_1))
-        print(f"Current message2:")
-        print(''.join(current_message_2))
-except ValueError:
-    print("Please enter an int")
+        if not check_ascii_code_allowed(local_result):
+            continue
+
+        for c in local_result:
+            local_result_text += chr(c)
+
+        possible_words[i] = local_result_text
+        print(f"[{i}]--{local_result_text}--")
+
+    selected_position = input("Select one that looks plausible: ")
+    try:
+        selected_position = int(selected_position)
+        if selected_position not in possible_words:
+            print(f"Please enter a valid position")
+        else:
+            selected_word = possible_words[selected_position]
+            word_length = len(selected_word)
+            print(f"You chose '{selected_word}'")
+            selected_word_list = []
+            [selected_word_list.append(c) for c in selected_word]
+            current_message_1[selected_position:selected_position+word_length] = selected_word_list
+
+            guess_word_list = []
+            [guess_word_list.append(c) for c in guess_word]
+            current_message_2[selected_position:selected_position+word_length] = guess_word_list
+            print(f"Current message1:")
+            print(''.join(current_message_1))
+            print(f"Current message2:")
+            print(''.join(current_message_2))
+    except ValueError:
+        print("Please enter an int")
 
 
 # guess_word: str = """I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build"""
