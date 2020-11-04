@@ -16,13 +16,28 @@ def byte_xor(ba1, ba2) -> List[int]:
     [res.append(_a ^ _b) for _a, _b in zip(ba1, ba2)]
     return res
 
-
 def check_ascii_code_allowed(ascii_codes: List[int]) -> bool:
     for c in ascii_codes:
         if c not in allowed_ascii_codes:
             return False
 
     return True
+
+def crib_drag(guess_word_bytes: List[int]) -> Dict[int, str]:
+    possible_words: Dict[int,str] = dict()
+    for i in range(len(ciphertext_xor) - len(guess_word_bytes) + 1):
+        local_result = byte_xor(ciphertext_xor[i:i+len(guess_word_bytes)], guess_word_bytes)
+        local_result_text: str = ""
+        if not check_ascii_code_allowed(local_result):
+            continue
+        for c in local_result:
+            local_result_text += chr(c)
+        possible_words[i] = local_result_text
+    
+    return possible_words
+
+
+
 
 
 ciphertext_1_file = open("challenge1.txt", "rb")
@@ -76,6 +91,9 @@ current_message_1: List[str] = ['#'] * len(ciphertext_xor)
 current_message_2: List[str] = ["#"] * len(ciphertext_xor)
 iteration = 0
 iteration_messages: List[Iteration_Message] = []
+current_message_1_str = ''.join(current_message_1)
+current_message_2_str = ''.join(current_message_2)
+iteration_messages.append(Iteration_Message(current_message_1_str, current_message_2_str, iteration))
 
 print("These characters are allowed:")
 print("".join(allowed_chars))
@@ -83,33 +101,27 @@ print("".join(allowed_chars))
 print("Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!")
 
 while True:
+    iteration += 1
+    
+    
     guess_word: str = input(f"Iteration {iteration}: Enter a string to guess below:\n")
-    # guess_word = " government "
-    guess_word_bytes: List[int] = []
-    [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
-    possible_words: Dict[int,str] = dict()
-
     print(f"Iteration {iteration}: Guess is now '{guess_word}'")
 
-    for i in range(len(ciphertext_xor) - len(guess_word) + 1):
-        local_result = byte_xor(ciphertext_xor[i:i+len(guess_word)], guess_word_bytes)
-        local_result_text: str = ""
 
-        if not check_ascii_code_allowed(local_result):
-            continue
-
-        for c in local_result:
-            local_result_text += chr(c)
-
-        possible_words[i] = local_result_text
+    guess_word_bytes: List[int] = []
+    [guess_word_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in guess_word]
+    possible_words: Dict[int,str] = crib_drag(guess_word_bytes)
         
 
     if len(possible_words) == 0:
         print("Iteration {iteration}: Could not find any match. Try with another string.")
         continue
     
+    
     for i in possible_words:
         print(f"[{i}]--{possible_words[i]}--")
+    
+    
     selected_position = input("Select one that looks plausible: ")
     
     # if selected_position == "":
@@ -119,17 +131,32 @@ while True:
         selected_position = int(selected_position)
         if selected_position not in possible_words:
             print(f"Please enter a valid position")
+            
         else:
             selected_word = possible_words[selected_position]
             word_length = len(selected_word)
+            
             print(f"Iteration {iteration}: You chose '{selected_word}'")
+            
+            
             selected_word_list = []
             [selected_word_list.append(c) for c in selected_word]
-            current_message_1[selected_position:selected_position+word_length] = selected_word_list
-
             guess_word_list = []
             [guess_word_list.append(c) for c in guess_word]
-            current_message_2[selected_position:selected_position+word_length] = guess_word_list
+            
+            guess_belongs_to = 1
+            if len(iteration_messages) != 0:
+                guess_belongs_to = input(f"Belongs the guess word '{guess_word}' to message [1] or [2]?\n")
+            
+            
+            if guess_belongs_to == '1':
+                current_message_2[selected_position:selected_position+word_length] = selected_word_list
+                current_message_1[selected_position:selected_position+word_length] = guess_word_list
+            else:
+                current_message_1[selected_position:selected_position+word_length] = selected_word_list
+                current_message_2[selected_position:selected_position+word_length] = guess_word_list
+            
+            
             print(f"Iteration {iteration}: Current message1:")
             current_message_1_str = ''.join(current_message_1)
             print(current_message_1_str)
@@ -148,7 +175,6 @@ while True:
             #         print(propose)
             
             iteration_messages.append(Iteration_Message(current_message_1_str, current_message_2_str, iteration))
-            iteration += 1
     except ValueError:
         print("Please enter an int")
 
