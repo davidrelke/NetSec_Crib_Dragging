@@ -1,9 +1,11 @@
-class Iteration_Message:
-    message1: str
-    message2: str
+from typing import List
+
+class IterationMessage:
+    message_1: List[str]
+    message_2: List[str]
     iteration: int
     
-    def __init__(self, message1, message2, iteration): 
-        self.message1 = message1
-        self.message2 = message2
+    def __init__(self, message_1, message_2, iteration): 
+        self.message_1 = message_1
+        self.message_2 = message_2
         self.iteration = iteration
