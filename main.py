@@ -104,6 +104,7 @@ iteration_messages.append(IterationMessage(l1, l2, iteration))
 print("These characters are allowed:")
 print("".join(allowed_chars))
 
+print("You can always type '*back*' to revert the last change")
 print("Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!")
 
 # "Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide."
