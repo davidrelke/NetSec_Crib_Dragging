@@ -61,8 +61,17 @@ def undo_iteration(iter_msgs: List[IterationMessage], iter: int) -> int:
 
 signal(SIGINT, handler)
 
-ciphertext_1_file = open("challenge1.txt", "rb")
-ciphertext_2_file = open("challenge2.txt", "rb")
+if len(sys.argv) != 3:
+    print("Please enter two input files")
+    exit(0)
+
+
+try:
+    ciphertext_1_file = open(sys.argv[1], "rb")
+    ciphertext_2_file = open(sys.argv[2], "rb")
+    
+except :
+    print("Could not read files")
 
 byte: bytes = ciphertext_1_file.read(1)
 ciphertext_1_bytes: List[int] = []
