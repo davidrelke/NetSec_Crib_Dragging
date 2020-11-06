@@ -192,10 +192,21 @@ while True:
                 iteration_messages[iteration].message_2[selected_position:selected_position+word_length] = guess_word_list
             
             
+            # message XOR cipher = key
+            message_1_bytes: List[int] = []
+            [message_1_bytes.append(int.from_bytes(c.encode('ascii'), 'little')) for c in iteration_messages[iteration].message_1]
+            current_key: List[int] = byte_xor(message_1_bytes, ciphertext_1_bytes)
+            current_key_hex = [hex(k) for k in current_key]
+            for i, k in enumerate(current_key_hex):
+                current_key_hex[i] = k.replace("0x", "")
+            
             print_current_messages(iteration_messages[iteration].message_1, iteration_messages[iteration].message_2, iteration)
             output_file.write(f"Iteration {iteration}:\n")
             output_file.write(f"message_1:\n{''.join(iteration_messages[iteration].message_1)}\n")
             output_file.write(f"message_2:\n{''.join(iteration_messages[iteration].message_2)}\n")
+            output_file.write(f"Current Key in hex:\n")
+            output_file.write("".join(current_key_hex))
+            output_file.write("\n")
             output_file.flush()
     except ValueError:
         print("Please enter an int")
