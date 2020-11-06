@@ -13,18 +13,18 @@ The Key is:
 ```
 
 ## Approach
-The messages m1 and m2 have been encrypted using the same key k.We have the two corresponding ciphertexts c1 and c2. These were encrypted by computing the bitwise exclusive or of each message with the key:  
-c1 = m1 ⊕ k  
-c2 = m2 ⊕ k  
+The messages _m1_ and _m2_ have been encrypted using the same key _k_.We have the two corresponding ciphertexts _c1_ and _c2_. These were encrypted by computing the bitwise exclusive or of each message with the key:  
+_c1_ = _m1_ ⊕ _k_  
+_c2_ = _m2_ ⊕ _k_  
 The reuse of k introduces a [vulnerability](https://www.thecrowned.org/the-one-time-pad-and-the-many-time-pad-vulnerability) to the otherwise secure OTP method.
 We can compute  
-x = c1 ⊕ c2 = m1 ⊕ k ⊕ m2 ⊕ k = m1 ⊕ m2.  
+_x_ = _c1_ ⊕ _c2_ = _m1_ ⊕ _k_ ⊕ _m2_ ⊕ _k_ = _m1_ ⊕ _m2_.  
 This reveals information about the two plaintext messages and the key.  
-The tool enables the user to mount a [crib-dragging](http://www.ivansivak.net/blog/stream-ciphers-one-time-pad-and-the-same-key-vs-cbc) attack against x. The user enters a string that might be in one (or both) of the two original messages. This guessed string g is than 'dragged' over x by computing
-x ⊕ g at all possible positions. If g actually existed in one of the messages we will get the plaintext of the other message at the corresponding positions.  
+The tool enables the user to mount a [crib-dragging](http://www.ivansivak.net/blog/stream-ciphers-one-time-pad-and-the-same-key-vs-cbc) attack against _x_. The user enters a string that might be in one (or both) of the two original messages. This guessed string _g_ is than 'dragged' over _x_ by computing
+_x_ ⊕ _g_ at all possible positions. If _g_ actually existed in one of the messages we will get the plaintext of the other message at the corresponding positions.  
 This way the user can gradually restore the original messages.  
 After the messages are recovered the key can be computed:  
-c1 ⊕ m1 = k
+_c1_ ⊕ _m1_ = _k_
 
 ## Instructions
 Created with Python 3.8, previous versions might also work. No externel libraries are needed.
@@ -57,7 +57,7 @@ The script takes only the following characters and the whitespace into account:
 ```
  ',.:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
  ```
- That way it can filter out any implausible matches of the guessed word and c1 ⊕ c2.  
+ That way it can filter out any implausible matches of the guessed word and c1 ⊕ _c2_.  
  Finding a starting point was the hardest part. Using very common but short words like 'the' as the first guess will lead to a lot of false positives. It therefor makes sense to use a longer (more than ~7 characters) word. Including whitespaces around the word will also narrow down the set of possible matches. 
  ### Example
  We used the string ' government ' (notice the leading and tailing whitespace to increase the length of the guessed string) as the first guess. This yields to only three results of which two look like plausible text fragments.
