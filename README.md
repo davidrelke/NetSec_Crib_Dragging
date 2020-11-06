@@ -5,7 +5,12 @@
 The two messages are quotes taken from the book "No Place to Hide" by Glenn Greenwald and the [article](https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance) "Edward Snowden: the whistleblower behind the NSA surveillance revelations" authored by Glenn Greenwald, Ewen MacAskill and Laura Poitras.
 > Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 
->I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly building
+>I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly building.
+
+The Key is:
+```
+4a9fbf3cf9dc67aa6eb9628e4bb4c8ba5d1577d9f36271c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac096657902c7
+```
 
 ## Approach
 The messages m1 and m2 have been encrypted using the same key k.We have the two corresponding ciphertexts c1 and c2. These were encrypted by computing the bitwise exclusive or of each message with the key:  
