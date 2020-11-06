@@ -1,230 +1,329 @@
 Decrypted Messages:Iteration 1:
 message_1:
-######################################### government ###################################################################################################################################################
+########################################################################################### government #################################################################################################
 message_2:
-#########################################e led to an ###################################################################################################################################################
+###########################################################################################nd basic lib#################################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d011b8e0701dfdd7a02a86911ab24ed8324e34539ee12733abd43df8e9e97848e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 2:
 message_1:
-######################################### government ######################################nd basic lib#################################################################################################
+#########################################################################################S. government #################################################################################################
 message_2:
-#########################################e led to an ###################################### government #################################################################################################
+######################################################################################### and basic lib#################################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d011b8e0701dfda7ad2a86911ab24ed8324e34539ee12733abd43df8e9e97848e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 3:
 message_1:
-######################################### government #################################### and basic liberties ##########################################################################################
+#########################################################################################S. government had bui##########################################################################################
 message_2:
-#########################################e led to an ####################################S. government had bui##########################################################################################
+######################################################################################### and basic liberties ##########################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d011b8e0701dfda7ad2a86911ab24ed8324e34539eaa6574a8956bb2e9e97848e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 4:
 message_1:
-######################################### government #################################dom and basic liberties fo########################################################################################
+###################################################################################### U.S. government had bui##########################################################################################
 message_2:
-#########################################e led to an ################################# U.S. government had built########################################################################################
-Iteration 4:
-message_1:
-######################################### government #############################freedom and basic liberties ##########################################################################################
-message_2:
-#########################################e led to an ############################# the U.S. government had bui##########################################################################################
+######################################################################################dom and basic liberties ##########################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d011b8e0736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2e9e97848e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 5:
 message_1:
-######################################### government #############################freedom and basic liberties fo########################################################################################
+###################################################################################### U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built########################################################################################
+######################################################################################dom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d011b8e0736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 6:
 message_1:
-######################################### government #############################freedom and basic liberties for ######################################################################################
+################################################################################## the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a######################################################################################
+##################################################################################freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39fd2ca664955d532df24a85e4de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 7:
 message_1:
-######################################### government #############################freedom and basic liberties for people################################################################################
+#########################################e led to an ############################# the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a syste################################################################################
+######################################### government #############################freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3289323f39f94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 8:
 message_1:
-######################################### government #############################freedom and basic liberties for people a##############################################################################
+####################################rchive led to an ############################# the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a system ##############################################################################
+#################################### U.S. government #############################freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdfd97c3259d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 9:
 message_1:
-######################################### government #############################freedom and basic liberties for people around ########################################################################
+#################################n archive led to an ############################# the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a system that h########################################################################
+#################################the U.S. government #############################freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdf947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d4d346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 10:
 message_1:
-######################################### government #############################freedom and basic liberties for people around th######################################################################
+#################################n archive led to an ############################: the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a system that has######################################################################
+#################################the U.S. government ############################ freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dcdf947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 11:
 message_1:
-######################################### government #############################freedom and basic liberties for people around the world###############################################################
+################################en archive led to an ############################: the U.S. government had built #######################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a system that has as its###############################################################
+################################ the U.S. government ############################ freedom and basic liberties for#######################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7b48e3a91f161f8f777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 12:
 message_1:
-######################################### government #############################freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a syste################################################################################
 message_2:
-#########################################e led to an ############################# the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people################################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136bef777b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 13:
 message_1:
-#####################################U.S. government #############################freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system ##############################################################################
 message_2:
-#####################################chive led to an ############################# the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people a##############################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974b15f6f9af93eb6ecbe83ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 14:
 message_1:
-###################################e U.S. government #############################freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has a####################################################################
 message_2:
-###################################archive led to an ############################# the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the ####################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc1ca9dbed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 15:
 message_1:
-##################################he U.S. government #############################freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as ##################################################################
 message_2:
-################################## archive led to an ############################# the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the wo##################################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ebed03cb9a4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 16:
 message_1:
-################################ the U.S. government #############################freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its ##############################################################
 message_2:
-################################en archive led to an ############################# the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world ##############################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbaa4b06879a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 17:
 message_1:
-################################ the U.S. government ################### internet freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal##########################################################
 message_2:
-################################en archive led to an ###################onclusion: the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with##########################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a76532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 18:
 message_1:
-################################ the U.S. government #################y, internet:freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal #########################################################
 message_2:
-################################en archive led to an ################# conclusion  the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with #########################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a46532ddc1874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 19:
 message_1:
-################################ the U.S. government #################y, internet freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the #####################################################
 message_2:
-################################en archive led to an ################# conclusion: the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this#####################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2874bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 20:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with##########################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the c####################################################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal##########################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this ####################################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c74bea14c16c1fa24635ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 21:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with thi######################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete ############################################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the######################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive ############################################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44535ab4b651b6b38a3a37f43ad8b29ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 22:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this ####################################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete surveillance ###############################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the c####################################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive elimination o###############################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44565fd1a305d2177ece1323eb8829ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 23:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive#############################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination o###############################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete#############################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance ###############################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec729ad93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 24:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive ############################################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of #############################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete ############################################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance ma#############################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76cae93b25d67f58f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 25:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance ###############################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electr#######################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination o###############################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine #######################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289f79992a2cb26e8f47787fe329a56c912ed42fe647d068
 Iteration 26:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance m##############################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic ##################
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of##############################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they'##################
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c826e8f47787fe329a56c912ed42fe647d068
 Iteration 27:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine #######################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic pri###############
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electr#######################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're ###############
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be7787fe329a56c912ed42fe647d068
 Iteration 28:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they'##################
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy ##########
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic ##################
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secre##########
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be689956c912ed42fe647d068
 Iteration 29:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're ###############
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worl######
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic pri###############
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly ######
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061d42fe647d068
 Iteration 30:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secre##########
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide#
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy ##########
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build#
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09668
 Iteration 31:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly ######
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worl######
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69c9277642dbd011ea7d264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 32:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build#
+################################en archive led to an ########## simple o#########: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide#
+################################ the U.S. government ########## privacy ######### freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69ca773cc889f57e931264278eb8e1975455d54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 33:
 message_1:
-################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+################################en archive led to an ########## simple o#internet: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+################################ the U.S. government ########## privacy #nclusion freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69ca773cc889f57e93126835bcc848383a54346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 34:
 message_1:
-########################## allow the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+################################en archive led to an ########## simple o#nclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-########################## Snowden archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+################################ the U.S. government ########## privacy #internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69ca773cc889f57e93126f38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 35:
 message_1:
-#######################nce allow the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-#######################the Snowden archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1eeea9fe2e9dc99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 36:
 message_1:
-#######################nce allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+########################## Snowden archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-#######################the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+########################## allow the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e7de989e837fd036309c69ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 37:
 message_1:
-######################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+########################## Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-###################### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+########################## allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea961729088f1ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 38:
 message_1:
-I can'################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+#######################the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken ################ the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+#######################nce allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea96172c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 39:
 message_1:
-I can't ##############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+###################### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in############## the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+######################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+3dddf77ab4df2de76df335de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 40:
 message_1:
-I can't i#############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Ta#################### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in ############# the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I ####################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9ff77ab4df2de76df335de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 41:
 message_1:
-I can't in ###########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Taken ################ the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in it########### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I can'################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc2de76df335de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 42:
 message_1:
-I can't in go#########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Taken in############## the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in its ######### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I can't ##############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6df335de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 43:
 message_1:
-I can't in good ######ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Taken in ############# the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in its ent###### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I can't i#############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6ef335de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 44:
 message_1:
-I can't in good consc#ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Taken in it########### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in its entirety# the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I can't in ###########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6eb962de48f285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
 Iteration 45:
 message_1:
-I can't in good conscience allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Taken in its ######### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
 message_2:
-Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+I can't in go#########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6eb9628e4bf285ed1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
+Iteration 46:
+message_1:
+Taken in its ent###### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+message_2:
+I can't in good ######ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6eb9628e4bb4c8ba1744318ea96171c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
+Iteration 47:
+message_1:
+Taken in its entirety  the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+message_2:
+I can't in good consceence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Current Key in hex:
+4a9fbf3cf9dc67aa6eb9628e4bb4c8ba5d1577d9f36271c7c3b7ed9ad2aebd9b99947f7059d368b9ca94c94922d25e461f18c8e788d7c9c931926176d333ca773cc889f57e93d6af38a4d8493f91054346f3a6736bf0a7ad2a86911ab24ed8324e34539eaa6574a8956bb2a6be7bae05acba136beb974e6142dcdfa75f4bcbdc19a9ef4876cbae0fc2a36a432799bc2c77a4478e2a48e44573e412b51267af4e933eaec76caed5fd1b46289bbd4d8e2c875b9be22c5be6899240c061937bac09665
