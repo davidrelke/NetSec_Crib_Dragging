@@ -1,0 +1,834 @@
+C:\Users\david\Studium\NetSec\NetSec_Crib_Dragging>python main.py challenge1.txt challenge2.txt
+Ciphertext 1 contains 203 bytes
+--------------------------------
+Ciphertext 2 contains 200 bytes
+--------------------------------
+XOR of c1 and c2 contains 200 bytes
+--------------------------------
+These characters are allowed:
+ ',.:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+You can always type '*back*' to revert the last change
+Press Ctrl + C to exit
+Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!
+Iteration 1: Enter a string to guess below:
+ government
+Iteration 1: Guess is now ' government '
+[41]--e led to an --
+[59]-- plvequiccry--
+[91]--nd basic lib--
+Select one that looks plausible: 91
+Iteration 1: You chose 'nd basic lib'
+Belongs the guess word ' government ' to message [1] or [2]?
+1
+Iteration 1: Current message1:
+########################################################################################### government #################################################################################################
+Iteration 1: Current message2:
+###########################################################################################nd basic lib#################################################################################################
+Iteration 2: Enter a string to guess below:
+ and basic lib
+Iteration 2: Guess is now ' and basic lib'
+[89]--S. government --
+Select one that looks plausible: 89
+Iteration 2: You chose 'S. government '
+Belongs the guess word ' and basic lib' to message [1] or [2]?
+2
+Iteration 2: Current message1:
+#########################################################################################S. government #################################################################################################
+Iteration 2: Current message2:
+######################################################################################### and basic lib#################################################################################################
+Iteration 3: Enter a string to guess below:
+ and basic liberties
+Iteration 3: Guess is now ' and basic liberties '
+[89]--S. government had bui--
+Select one that looks plausible: 89
+Iteration 3: You chose 'S. government had bui'
+Belongs the guess word ' and basic liberties ' to message [1] or [2]?
+2
+Iteration 3: Current message1:
+#########################################################################################S. government had bui##########################################################################################
+Iteration 3: Current message2:
+######################################################################################### and basic liberties ##########################################################################################
+Iteration 4: Enter a string to guess below:
+ U.S.
+Iteration 4: Guess is now ' U.S. '
+[36]--rchive--
+[86]--dom an--
+Select one that looks plausible: 86
+Iteration 4: You chose 'dom an'
+Belongs the guess word ' U.S. ' to message [1] or [2]?
+1
+Iteration 4: Current message1:
+###################################################################################### U.S. government had bui##########################################################################################
+Iteration 4: Current message2:
+######################################################################################dom and basic liberties ##########################################################################################
+Iteration 5: Enter a string to guess below:
+ had bult
+Iteration 5: Guess is now ' had bult '
+[133]--osys rsyp --
+Select one that looks plausible:
+Please enter an int
+Iteration 5: Enter a string to guess below:
+ had built
+Iteration 5: Guess is now ' had built '
+[22]--erjd Pwjtge--
+[42]--gkrerxw,cn --
+[102]--berties for--
+[189]--ekboldwidug--
+Select one that looks plausible: 102
+Iteration 5: You chose 'berties for'
+Belongs the guess word ' had built ' to message [1] or [2]?
+1
+Iteration 5: Current message1:
+###################################################################################### U.S. government had built #######################################################################################
+Iteration 5: Current message2:
+######################################################################################dom and basic liberties for#######################################################################################
+Iteration 6: Enter a string to guess below:
+freedom and
+Iteration 6: Guess is now 'freedom and'
+[74]--kjudcew:'hi--
+[82]-- the U.S. g--
+[186]--brn glflgld--
+Select one that looks plausible: 82
+Iteration 6: You chose ' the U.S. g'
+Belongs the guess word 'freedom and' to message [1] or [2]?
+2
+Iteration 6: Current message1:
+################################################################################## the U.S. government had built #######################################################################################
+Iteration 6: Current message2:
+##################################################################################freedom and basic liberties for#######################################################################################
+Iteration 7: Enter a string to guess below:
+ government
+Iteration 7: Guess is now ' government '
+[41]--e led to an --
+[59]-- plvequiccry--
+[91]--nd basic lib--
+Select one that looks plausible: 41
+Iteration 7: You chose 'e led to an '
+Belongs the guess word ' government ' to message [1] or [2]?
+2
+Iteration 7: Current message1:
+#########################################e led to an ############################# the U.S. government had built #######################################################################################
+Iteration 7: Current message2:
+######################################### government #############################freedom and basic liberties for#######################################################################################
+Iteration 8: Enter a string to guess below:
+ U.S.
+Iteration 8: Guess is now ' U.S. '
+[36]--rchive--
+[86]--dom an--
+Select one that looks plausible: 36
+Iteration 8: You chose 'rchive'
+Belongs the guess word ' U.S. ' to message [1] or [2]?
+2
+Iteration 8: Current message1:
+####################################rchive led to an ############################# the U.S. government had built #######################################################################################
+Iteration 8: Current message2:
+#################################### U.S. government #############################freedom and basic liberties for#######################################################################################
+Iteration 9: Enter a string to guess below:
+the U.S.
+Iteration 9: Guess is now 'the U.S. '
+[33]--n archive--
+[83]--reedom an--
+Select one that looks plausible: 33
+Iteration 9: You chose 'n archive'
+Belongs the guess word 'the U.S. ' to message [1] or [2]?
+2
+Iteration 9: Current message1:
+#################################n archive led to an ############################# the U.S. government had built #######################################################################################
+Iteration 9: Current message2:
+#################################the U.S. government #############################freedom and basic liberties for#######################################################################################
+Iteration 10: Enter a string to guess below:
+ freedom
+Iteration 10: Guess is now ' freedom '
+[55]--tkzweslm --
+[73]--'kjudcew:--
+[81]--: the U.S--
+[137]-- vtpadom,--
+Select one that looks plausible: 81
+Iteration 10: You chose ': the U.S'
+Belongs the guess word ' freedom ' to message [1] or [2]?
+2
+Iteration 10: Current message1:
+#################################n archive led to an ############################: the U.S. government had built #######################################################################################
+Iteration 10: Current message2:
+#################################the U.S. government ############################ freedom and basic liberties for#######################################################################################
+Iteration 11: Enter a string to guess below:
+ the U.S.
+Iteration 11: Guess is now ' the U.S. '
+[32]--en archive--
+[82]--freedom an--
+Select one that looks plausible: 32
+Iteration 11: You chose 'en archive'
+Belongs the guess word ' the U.S. ' to message [1] or [2]?
+2
+Iteration 11: Current message1:
+################################en archive led to an ############################: the U.S. government had built #######################################################################################
+Iteration 11: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for#######################################################################################
+Iteration 12: Enter a string to guess below:
+liberties for people
+Iteration 12: Guess is now 'liberties for people'
+[100]--nt had built a syste--
+Select one that looks plausible: 100
+Iteration 12: You chose 'nt had built a syste'
+Belongs the guess word 'liberties for people' to message [1] or [2]?
+2
+Iteration 12: Current message1:
+################################en archive led to an ############################: the U.S. government had built a syste################################################################################
+Iteration 12: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people################################################################################
+Iteration 13: Enter a string to guess below:
+a system
+Iteration 13: Guess is now 'a system '
+[62]--a pbwrhky--
+[113]-- people a--
+[144]--a, :qxfr,--
+Select one that looks plausible: 113
+Iteration 13: You chose ' people a'
+Belongs the guess word 'a system ' to message [1] or [2]?
+1
+Iteration 13: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system ##############################################################################
+Iteration 13: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people a##############################################################################
+Iteration 14: Enter a string to guess below:
+people around the
+Iteration 14: Guess is now 'people around the '
+[114]-- system that has a--
+Select one that looks plausible: 114
+Iteration 14: You chose ' system that has a'
+Belongs the guess word 'people around the ' to message [1] or [2]?
+2
+Iteration 14: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has a####################################################################
+Iteration 14: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the ####################################################################
+Iteration 15: Enter a string to guess below:
+has as
+Iteration 15: Guess is now 'has as '
+[56]--eia vp --
+[75]--pqr'ki:--
+[103]--ercifui--
+[117]--kysm u'--
+[127]-- the wo--
+[139]--ntw as,--
+[141]--las m c--
+[149]--dbl,cs --
+[173]--dlbrzu,--
+[178]--nmi'cdi--
+[181]--ocdidw --
+[190]--kbxlgq --
+Select one that looks plausible: 127
+Iteration 15: You chose ' the wo'
+Belongs the guess word 'has as ' to message [1] or [2]?
+1
+Iteration 15: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as ##################################################################
+Iteration 15: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the wo##################################################################
+Iteration 16: Enter a string to guess below:
+the world
+Iteration 16: Guess is now 'the world '
+[23]--nce Emqtwe--
+[128]--as as its --
+[134]--opr gighd --
+[152]--xje aviwh'--
+[158]--osi'zwzmie--
+[190]--wknlqmrdeg--
+Select one that looks plausible: 128
+Iteration 16: You chose 'as as its '
+Belongs the guess word 'the world ' to message [1] or [2]?
+2
+Iteration 16: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its ##############################################################
+Iteration 16: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world ##############################################################
+Iteration 17: Enter a string to guess below:
+as its goal
+Iteration 17: Guess is now 'as its goal'
+[131]-- world with--
+[141]--es ix cecbs--
+[187]--axejwxlamad--
+Select one that looks plausible: 131
+Iteration 17: You chose ' world with'
+Belongs the guess word 'as its goal' to message [1] or [2]?
+1
+Iteration 17: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal##########################################################
+Iteration 17: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with##########################################################
+Iteration 18: Enter a string to guess below:
+as its goal
+Iteration 18: Guess is now 'as its goal '
+[131]-- world with --
+[141]--es ix cecbs,--
+Select one that looks plausible: 131
+Iteration 18: You chose ' world with '
+Belongs the guess word 'as its goal ' to message [1] or [2]?
+1
+Iteration 18: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal #########################################################
+Iteration 18: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with #########################################################
+Iteration 19: Enter a string to guess below:
+as its goal the
+Iteration 19: Guess is now 'as its goal the '
+[131]-- world with this--
+Select one that looks plausible: 131
+Iteration 19: You chose ' world with this'
+Belongs the guess word 'as its goal the ' to message [1] or [2]?
+1
+Iteration 19: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the #####################################################
+Iteration 19: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this#####################################################
+Iteration 20: Enter a string to guess below:
+with this machine
+Iteration 20: Guess is now 'with this machine '
+Iteration {iteration}: Could not find any match. Try with another string.
+Iteration 20: Enter a string to guess below:
+
+Enter a valid string
+Iteration 20: Enter a string to guess below:
+with this
+Iteration 20: Guess is now 'with this '
+[138]--goal the c--
+[151]--hevh bqrh,--
+[172]--seyyronei'--
+Select one that looks plausible: 138
+Iteration 20: You chose 'goal the c'
+Belongs the guess word 'with this ' to message [1] or [2]?
+2
+Iteration 20: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the c####################################################
+Iteration 20: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this ####################################################
+Iteration 21: Enter a string to guess below:
+the complete
+Iteration 21: Guess is now 'the complete '
+[134]--opr sixtletis--
+[143]--this massive --
+Select one that looks plausible: 143
+Iteration 21: You chose 'this massive '
+Belongs the guess word 'the complete ' to message [1] or [2]?
+1
+Iteration 21: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete ############################################
+Iteration 21: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive ############################################
+Iteration 22: Enter a string to guess below:
+ surveillance
+Iteration 22: Guess is now ' surveillance '
+[133]--ohmevuoyhancis--
+[155]-- elimination o--
+Select one that looks plausible: 155
+Iteration 22: You chose ' elimination o'
+Belongs the guess word ' surveillance ' to message [1] or [2]?
+1
+Iteration 22: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete surveillance ###############################
+Iteration 22: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive elimination o###############################
+Iteration 23: Enter a string to guess below:
+ surveillance
+Iteration 23: Guess is now ' surveillance '
+[133]--ohmevuoyhancis--
+[155]-- elimination o--
+Select one that looks plausible: 155
+Iteration 23: You chose ' elimination o'
+Belongs the guess word ' surveillance ' to message [1] or [2]?
+2
+Iteration 23: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination o###############################
+Iteration 23: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance ###############################
+Iteration 24: Enter a string to guess below:
+elimination of
+Iteration 24: Guess is now 'elimination of '
+[156]--surveillance ma--
+Select one that looks plausible: 156
+Iteration 24: You chose 'surveillance ma'
+Belongs the guess word 'elimination of ' to message [1] or [2]?
+1
+Iteration 24: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of #############################
+Iteration 24: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance ma#############################
+Iteration 25: Enter a string to guess below:
+surveillance machine
+Iteration 25: Guess is now 'surveillance machine '
+[134]--hmevuoyhancis.cokvbg --
+[156]--elimination of electr--
+Select one that looks plausible: 156
+Iteration 25: You chose 'elimination of electr'
+Belongs the guess word 'surveillance machine ' to message [1] or [2]?
+2
+Iteration 25: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electr#######################
+Iteration 25: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine #######################
+Iteration 26: Enter a string to guess below:
+of electronic
+Iteration 26: Guess is now 'of electronic '
+[57]--gt roecwikhdey--
+[147]--,d,fsiatrywrx,--
+[168]-- machine they'--
+Select one that looks plausible: 168
+Iteration 26: You chose ' machine they''
+Belongs the guess word 'of electronic ' to message [1] or [2]?
+1
+Iteration 26: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic ##################
+Iteration 26: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they'##################
+Iteration 27: Enter a string to guess below:
+they'r
+Iteration 27: Guess is now 'they'r '
+[15]-- bxr he--
+[74]--ypux x:--
+Select one that looks plausible:
+Please enter an int
+Iteration 27: Enter a string to guess below:
+they're
+Iteration 27: Guess is now 'they're '
+[15]-- bxr h e--
+[55]-- emk'ef --
+[95]--pibwbpxb--
+[172]--pdhhuic,--
+[177]--onic pri--
+[180]--nognnwa --
+Select one that looks plausible: 177
+Iteration 27: You chose 'onic pri'
+Belongs the guess word 'they're ' to message [1] or [2]?
+2
+Iteration 27: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic pri###############
+Iteration 27: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're ###############
+Iteration 28: Enter a string to guess below:
+ privacy
+Iteration 28: Guess is now ' privacy '
+[63]-- simple o--
+[176]--rktelfani--
+[181]--'re secre--
+Select one that looks plausible: 181
+Iteration 28: You chose ''re secre'
+Belongs the guess word ' privacy ' to message [1] or [2]?
+1
+Iteration 28: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy ##########
+Iteration 28: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secre##########
+Iteration 29: Enter a string to guess below:
+ secretly
+Iteration 29: Guess is now ' secretly '
+[62]-- sfxvcyj o--
+[137]-- ccvvetlus--
+[184]--ivacy worl--
+Select one that looks plausible: 184
+Iteration 29: You chose 'ivacy worl'
+Belongs the guess word ' secretly ' to message [1] or [2]?
+2
+Iteration 29: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worl######
+Iteration 29: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly ######
+Iteration 30: Enter a string to guess below:
+worldwide
+Iteration 30: Guess is now 'worldwide'
+[132]--s itswybp--
+[148]--ucqshuids--
+[190]--tly build--
+Select one that looks plausible: 190
+Iteration 30: You chose 'tly build'
+Belongs the guess word 'worldwide' to message [1] or [2]?
+1
+Iteration 30: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide#
+Iteration 30: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly build#
+Iteration 31: Enter a string to guess below:
+worldwide.
+Iteration 31: Guess is now 'worldwide.'
+[190]--tly buildi--
+Select one that looks plausible: 190
+Iteration 31: You chose 'tly buildi'
+Belongs the guess word 'worldwide.' to message [1] or [2]?
+1
+Iteration 31: Current message1:
+################################en archive led to an ############################: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 31: Current message2:
+################################ the U.S. government ############################ freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 32: Enter a string to guess below:
+ privacy
+Iteration 32: Guess is now ' privacy '
+[63]-- simple o--
+[176]--rktelfani--
+[181]--'re secre--
+Select one that looks plausible: 63
+Iteration 32: You chose ' simple o'
+Belongs the guess word ' privacy ' to message [1] or [2]?
+2
+Iteration 32: Current message1:
+################################en archive led to an ########## simple o#########: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 32: Current message2:
+################################ the U.S. government ########## privacy ######### freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 33: Enter a string to guess below:
+internet
+Iteration 33: Guess is now 'internet'
+[2]--ajtbo ,s--
+[13]--cd ooebn--
+[56]--dffeemet--
+[61]--jntfijcy--
+[73]--nclusion--
+[96]--hiz ps'y--
+[101]--t,yvb'br--
+[134]--rvcebhpp--
+[138]--yhaarnex--
+[149]--emkipneb--
+[150]--jqxgrnsm--
+[159]--rbshjfdy--
+[172]--mbyt ucx--
+[178]--obnbpy,q--
+Select one that looks plausible: 73
+Iteration 33: You chose 'nclusion'
+Belongs the guess word 'internet' to message [1] or [2]?
+1
+Iteration 33: Current message1:
+################################en archive led to an ########## simple o#internet: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 33: Current message2:
+################################ the U.S. government ########## privacy #nclusion freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 34: Enter a string to guess below:
+internet
+Iteration 34: Guess is now 'internet'
+[2]--ajtbo ,s--
+[13]--cd ooebn--
+[56]--dffeemet--
+[61]--jntfijcy--
+[73]--nclusion--
+[96]--hiz ps'y--
+[101]--t,yvb'br--
+[134]--rvcebhpp--
+[138]--yhaarnex--
+[149]--emkipneb--
+[150]--jqxgrnsm--
+[159]--rbshjfdy--
+[172]--mbyt ucx--
+[178]--obnbpy,q--
+Select one that looks plausible: 73
+Iteration 34: You chose 'nclusion'
+Belongs the guess word 'internet' to message [1] or [2]?
+2
+Iteration 34: Current message1:
+################################en archive led to an ########## simple o#nclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 34: Current message2:
+################################ the U.S. government ########## privacy #internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 35: Enter a string to guess below:
+conclusion:
+Iteration 35: Guess is now 'conclusion:'
+[60]--tlnconwobhc--
+[71]--, internet --
+[177]--xibykwd jj:--
+Select one that looks plausible: 71
+Iteration 35: You chose ', internet '
+Belongs the guess word 'conclusion:' to message [1] or [2]?
+1
+Iteration 35: Current message1:
+################################en archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 35: Current message2:
+################################ the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 36: Enter a string to guess below:
+ Snowden
+Iteration 36: Guess is now ' Snowden '
+[26]-- allow th--
+[62]-- Smtsbhhy--
+[72]--oTcwgebd:--
+[137]-- Chzsden,--
+[147]--cQblhhgn --
+[176]--rHhcmcgyi--
+Select one that looks plausible: 26
+Iteration 36: You chose ' allow th'
+Belongs the guess word ' Snowden ' to message [1] or [2]?
+1
+Iteration 36: Current message1:
+########################## Snowden archive led to an ########## simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 36: Current message2:
+########################## allow the U.S. government ########## privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 37: Enter a string to guess below:
+ultimatley
+Iteration 37: Guess is now 'ultimatley'
+[56]--xdfizbtlfb--
+[61]--vltjverac --
+[116]--coli  rkqc--
+[136]--bldoxetleu--
+[143]--ulx:.cxozu--
+[154]--ulbpvzxkha--
+[156]--cuorafytmx--
+[157]--lwoejllddt--
+[181]--rnc hetg z--
+Select one that looks plausible:
+Please enter an int
+Iteration 37: Enter a string to guess below:
+ultimately
+Iteration 37: Guess is now 'ultimately'
+[53]--to destroy--
+[56]--xdfizbteob--
+[61]--vltjverhj --
+[116]--coli  rbxc--
+[136]--bldoxetelu--
+[143]--ulx:.cxfsu--
+[149]--yokeoatsub--
+[154]--ulbpvzxbaa--
+[155]--uzmrvmshtq--
+[157]--lwoejllmmt--
+Select one that looks plausible: 53
+Iteration 37: You chose 'to destroy'
+Belongs the guess word 'ultimately' to message [1] or [2]?
+1
+Iteration 37: Current message1:
+########################## Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 37: Current message2:
+########################## allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 38: Enter a string to guess below:
+to allow
+Iteration 38: Guess is now 'to allow '
+[47]--nmenvlntt--
+[91]--:louhmhye--
+[135]--lx qjykw --
+[152]--xm azutl,--
+[159]--oc'ltdnze--
+[191]--wdlgnlgvg--
+Select one that looks plausible:
+Please enter an int
+Iteration 38: Enter a string to guess below:
+the Snowden
+Iteration 38: Guess is now 'the Snowden '
+[23]--nce allow th--
+[134]--opr Chzsden,--
+[173]--xetrHhcmcgyi--
+Select one that looks plausible: 23
+Iteration 38: You chose 'nce allow th'
+Belongs the guess word 'the Snowden ' to message [1] or [2]?
+1
+Iteration 38: Current message1:
+#######################the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 38: Current message2:
+#######################nce allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 39: Enter a string to guess below:
+ the Snowden
+Iteration 39: Guess is now ' the Snowden '
+[22]--ence allow th--
+[133]--oopr Chzsden,--
+Select one that looks plausible: 22
+Iteration 39: You chose 'ence allow th'
+Belongs the guess word ' the Snowden ' to message [1] or [2]?
+1
+Iteration 39: Current message1:
+###################### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 39: Current message2:
+######################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 40: Enter a string to guess below:
+I
+Iteration 40: Guess is now 'I '
+[0]--Ta--
+[3]--M --
+[4]--I'--
+[6]--Tn--
+[9]--Nt--
+[14]--Ct--
+[18]--B'--
+[19]--N:--
+[20]--Se--
+[24]--B --
+[25]--I --
+[31]--Ze--
+[33]--Sh--
+[35]--Mr--
+[39]--sx--
+[45]--Hr--
+[48]--Ke--
+[50]--F:--
+[51]--S --
+[54]--Jt--
+[61]--J --
+[62]--I --
+[69]--Oy--
+[77]--H'--
+[79]--C:--
+[80]--S:--
+[81]--Sf--
+[84]--D --
+[85]--Id--
+[87]--sc--
+[89]--:o--
+[92]--Jo--
+[96]--H'--
+[97]--N.--
+[98]--Ge--
+[101]--Tb--
+[105]--Yi--
+[108]--Oi--
+[111]--Rr--
+[118]--Q --
+[119]--Im--
+[122]--O'--
+[125]--Sd--
+[129]--Re--
+[132]--Mo--
+[141]--M --
+[142]--I --
+[143]--I --
+[144]--I,--
+[145]--Es--
+[148]--K,--
+[151]--V,--
+[153]--K --
+[154]--I --
+[159]--R,--
+[160]--E'--
+[166]--De--
+[169]--Ba--
+[172]--M,--
+[175]--Xr--
+[178]--O,--
+[179]--E:--
+[180]--S'--
+[186]--M --
+[188]--Be--
+[192]--Bl--
+[195]--K --
+[198]--Hg--
+Select one that looks plausible: 0
+Iteration 40: You chose 'Ta'
+Belongs the guess word 'I ' to message [1] or [2]?
+2
+Iteration 40: Current message1:
+Ta#################### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 40: Current message2:
+I ####################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 41: Enter a string to guess below:
+Taken
+Iteration 41: Guess is now 'Taken '
+[0]--I can'--
+[3]--Palx i--
+[29]--Wyx th--
+[47]--Nc.jt --
+[65]--Oemhhy--
+[73]--Slsuo'--
+[75]--Lqjbd:--
+[81]--N'mhnd--
+[97]--So.gsb--
+[137]--Tqmpj --
+[139]--Rtoen --
+[140]--Aeken,--
+[141]--Pakebs--
+[149]--Xbtil --
+[162]--Yycdce--
+[191]--Wj'cl --
+[194]--Rckmog--
+Select one that looks plausible: 0
+Iteration 41: You chose 'I can''
+Belongs the guess word 'Taken ' to message [1] or [2]?
+1
+Iteration 41: Current message1:
+Taken ################ the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 41: Current message2:
+I can'################ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 42: Enter a string to guess below:
+I can't
+Iteration 42: Guess is now 'I can't '
+[0]--Taken in--
+[81]--SfelncNc--
+[92]--Joweo ze--
+Select one that looks plausible: 0
+Iteration 42: You chose 'Taken in'
+Belongs the guess word 'I can't ' to message [1] or [2]?
+2
+Iteration 42: Current message1:
+Taken in############## the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 42: Current message2:
+I can't ##############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 43: Enter a string to guess below:
+Taken in
+Iteration 43: Guess is now 'Taken in '
+[0]--I can't i--
+[47]--Nc.jt hmt--
+[73]--Slsuo'ct:--
+[137]--Tqmpj in,--
+[191]--Wj'cl aog--
+Select one that looks plausible: 0
+Iteration 43: You chose 'I can't i'
+Belongs the guess word 'Taken in ' to message [1] or [2]?
+1
+Iteration 43: Current message1:
+Taken in ############# the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 43: Current message2:
+I can't i#############ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 44: Enter a string to guess below:
+can't in
+Iteration 44: Guess is now 'can't in '
+[2]--ken in it--
+[94]--weo zeksb--
+[104]--pq' ricur--
+Select one that looks plausible: 2
+Iteration 44: You chose 'ken in it'
+Belongs the guess word 'can't in ' to message [1] or [2]?
+2
+Iteration 44: Current message1:
+Taken in it########### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 44: Current message2:
+I can't in ###########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 45: Enter a string to guess below:
+in its
+Iteration 45: Guess is now 'in its '
+[3]--mn't::'--
+[6]--t in go--
+[13]--cdtcix'--
+[19]--nte,nx --
+[49]--,a:iupt--
+[76]--yo'cnif--
+[80]--stfoysd--
+[96]--hi.,vnb--
+[100]--ksbdgci--
+[141]--mn ix c--
+[178]--ob:nvdi--
+[187]--ieejwxl--
+Select one that looks plausible: 6
+Iteration 45: You chose 't in go'
+Belongs the guess word 'in its ' to message [1] or [2]?
+1
+Iteration 45: Current message1:
+Taken in its ######### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 45: Current message2:
+I can't in go#########ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 46: Enter a string to guess below:
+in good
+Iteration 46: Guess is now 'in good '
+[8]-- its ent--
+[13]--cdtmrdc:--
+[91]--'mosknc.--
+[182]--kyibkooe--
+Select one that looks plausible: 8
+Iteration 46: You chose ' its ent'
+Belongs the guess word 'in good ' to message [1] or [2]?
+2
+Iteration 46: Current message1:
+Taken in its ent###### the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 46: Current message2:
+I can't in good ######ence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 47: Enter a string to guess below:
+ entirety
+Iteration 47: Guess is now ' entirety '
+[12]--ood consce--
+[62]-- emomthr o--
+[73]--'hvdhuoncf--
+[137]-- uhamretus--
+[180]--:blc watre--
+Select one that looks plausible: 12
+Iteration 47: You chose 'ood consce'
+Belongs the guess word ' entirety ' to message [1] or [2]?
+1
+Iteration 47: Current message1:
+Taken in its entirety  the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide.
+Iteration 47: Current message2:
+I can't in good consceence allow the U.S. government to destroy privacy, internet freedom and basic liberties for people around the world with this massive surveillance machine they're secretly buildi
+Iteration 48: Enter a string to guess below:
