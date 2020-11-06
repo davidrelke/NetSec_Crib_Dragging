@@ -71,7 +71,6 @@ while byte:
     byte = ciphertext_1_file.read(1)
 
 print(f"Ciphertext 1 contains {len(ciphertext_1_bytes)} bytes")
-# [print(f"{index}: {value} - {hex(value)}") for index, value in enumerate(ciphertext_1_bytes)]
 
 print("--------------------------------")
 
@@ -82,19 +81,16 @@ while byte2:
     byte2 = ciphertext_2_file.read(1)
 
 print(f"Ciphertext 2 contains {len(ciphertext_2_bytes)} bytes")
-# [print(f"{index}: {value} - {hex(value)}") for index, value in enumerate(ciphertext_2_bytes)]
 
 print("--------------------------------")
 
 ciphertext_xor: List[int] = []
 
 for i in range(len(ciphertext_2_bytes)):
-    # ciphertext_xor.append(int.from_bytes(byte_xor(ciphertext_1_bytes[i], ciphertext_2_bytes[i]), 'little'))
     ciphertext_xor.append(ciphertext_1_bytes[i] ^ ciphertext_2_bytes[i])
 
 
 print(f"XOR of c1 and c2 contains {len(ciphertext_xor)} bytes")
-# [print(f"{i}:{d}") for i, d in enumerate(ciphertext_xor)]
 print("--------------------------------")
 
 with open("output.txt", "w") as output_file:
