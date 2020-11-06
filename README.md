@@ -71,3 +71,20 @@ Iteration 1: Current message1:
 Iteration 1: Current message2:
 ###########################################################################################nd basic lib#################################################################################################
  ```
+ From there on we can guess that the revealed 'nd basic lib' might be ' and basic lib'. This way we reveal two more characters in the other message:  
+ ```
+ Iteration 2: Enter a string to guess below:
+ and basic lib
+Iteration 2: Guess is now ' and basic lib'
+[89]--S. government --
+Select one that looks plausible: 89
+Iteration 2: You chose 'S. government '
+Belongs the guess word ' and basic lib' to message [1] or [2]?
+2
+Iteration 2: Current message1:
+#########################################################################################S. government #################################################################################################
+Iteration 2: Current message2:
+######################################################################################### and basic lib#################################################################################################
+Iteration 3: Enter a string to guess below:
+ ```
+ We continue to either guess typical words or complete revealed fragments.
