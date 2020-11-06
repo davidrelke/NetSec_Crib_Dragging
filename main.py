@@ -6,7 +6,13 @@ from collections import defaultdict
 import re
 from iteration_message import IterationMessage
 from typing import List, Dict
+from signal import signal, SIGINT
+from sys import exit
 
+def handler(signal_received, frame):
+    if output_file:
+        output_file.close()
+    exit(0)
 
 def byte_xor(ba1, ba2) -> List[int]:
     res: List[int] = []
@@ -52,6 +58,8 @@ def undo_iteration(iter_msgs: List[IterationMessage], iter: int) -> int:
     print_current_messages(msg1, msg2, iter)
     return iter
 
+
+signal(SIGINT, handler)
 
 ciphertext_1_file = open("challenge1.txt", "rb")
 ciphertext_2_file = open("challenge2.txt", "rb")
@@ -110,6 +118,7 @@ print("These characters are allowed:")
 print("".join(allowed_chars))
 
 print("You can always type '*back*' to revert the last change")
+print("Press Ctrl + C to exit")
 print("Enter your first guess (including punctuation and whitespace). This string will be dragged over the XOR of both ciphertexts. Tip: start with ' government '!")
 
 # "Taken in its entirety, the Snowden archive led to an ultimately simple conclusion: the U.S. government had built a system that has as its goal the complete elimination of electronic privacy worldwide."
