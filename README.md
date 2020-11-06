@@ -87,3 +87,5 @@ Iteration 2: Current message2:
 ######################################################################################### and basic lib#################################################################################################
  ```
  We continue to either guess typical words or complete revealed fragments.
+ The full console output of our first full decryption can be found [here](https://github.com/davidrelke/NetSec_Crib_Dragging/blob/master/console_output.txt).
+
