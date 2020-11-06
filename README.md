@@ -17,7 +17,9 @@ x = c1 ⊕ c2 = m1 ⊕ k ⊕ m2 ⊕ k = m1 ⊕ m2.
 This reveals information about the two plaintext messages and the key.  
 The tool enables the user to mount a [crib-dragging](http://www.ivansivak.net/blog/stream-ciphers-one-time-pad-and-the-same-key-vs-cbc) attack against x. The user enters a string that might be in one (or both) of the two original messages. This guessed string g is than 'dragged' over x by computing
 x ⊕ g at all possible positions. If g actually existed in one of the messages we will get the plaintext of the other message at the corresponding positions.  
-This way the user can gradually restore the original messages.
+This way the user can gradually restore the original messages.  
+After the messages are recovered the key can be computed:  
+c1 ⊕ m1 = k
 
 ## Instructions
 Created with Python 3.8, previous versions might also work. No externel libraries are needed.
@@ -45,4 +47,27 @@ uberties
 This tool can be used to find words that match fragments revealed during the crib-dragging process.
 
 ### The Crib-Dragging Script
-Run `python main.py challenge1.txt challenge2.txt`. This script will read both ciphertexts and guide the user trough a crib-dragging analysis of the encrypted messages. Each step is saved in the output.txt file which includes the (partly) decrypted messages and the key.
+Run `python main.py challenge1.txt challenge2.txt`. This script will read both ciphertexts and guide the user trough a crib-dragging analysis of the encrypted messages. Each step is saved in the output.txt file which includes the (partly) decrypted messages and the key.  
+The script takes only the following characters and the whitespace into account: 
+```
+ ',.:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ ```
+ That way it can filter out any implausible matches of the guessed word and c1 ⊕ c2.  
+ Finding a starting point was the hardest part. Using very common but short words like 'the' as the first guess will lead to a lot of false positives. It therefor makes sense to use a longer (more than ~7 characters) word. Including whitespaces around the word will also narrow down the set of possible matches. 
+ ### Example
+ We used the string ' government ' (notice the leading and tailing whitespace to increase the length of the guessed string) as the first guess. This yields to only three results of which two look like plausible text fragments.
+
+ ```
+ Iteration 1: Guess is now ' government '
+[41]--e led to an --
+[59]-- plvequiccry--
+[91]--nd basic lib--
+Select one that looks plausible: 91
+Iteration 1: You chose 'nd basic lib'
+Belongs the guess word ' government ' to message [1] or [2]?
+1
+Iteration 1: Current message1:
+########################################################################################### government #################################################################################################
+Iteration 1: Current message2:
+###########################################################################################nd basic lib#################################################################################################
+ ```
