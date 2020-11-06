@@ -89,6 +89,11 @@ print(f"XOR of c1 and c2 contains {len(ciphertext_xor)} bytes")
 # [print(f"{i}:{d}") for i, d in enumerate(ciphertext_xor)]
 print("--------------------------------")
 
+with open("output.txt", "w") as output_file:
+    output_file.write("Decrypted Messages:")
+     
+output_file = open("output.txt", "a")
+
 
 allowed_ascii_codes: List[int] = [32, 39, 44, 46, 58] + list(range(65, 91)) + list(range(97, 123))
 #                                " " "'" "," "." ":"
@@ -183,6 +188,12 @@ while True:
             
             
             print_current_messages(iteration_messages[iteration].message_1, iteration_messages[iteration].message_2, iteration)
+            output_file.write(f"Iteration {iteration}:\n")
+            output_file.write(f"message_1:\n{''.join(iteration_messages[iteration].message_1)}\n")
+            output_file.write(f"message_2:\n{''.join(iteration_messages[iteration].message_2)}\n")
+            output_file.flush()
     except ValueError:
         print("Please enter an int")
+        iteration -= 1
         
+output_file.close()
